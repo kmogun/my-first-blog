@@ -17,8 +17,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mysite/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="120" column="15" lean-forward="false" selection-start-line="120" selection-start-column="15" selection-end-line="120" selection-end-column="15" />
+            <state relative-caret-position="432">
+              <caret line="121" column="39" lean-forward="false" selection-start-line="121" selection-start-column="39" selection-end-line="121" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -184,6 +184,13 @@
               <item name="my-first-blog" type="462c0819:PsiDirectoryNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-first-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-first-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="imagenes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-first-blog" type="b2602c69:ProjectViewProjectNode" />
@@ -532,7 +539,14 @@
       <option name="project" value="LOCAL" />
       <updated>1505419286055</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="añadimos static y primera plantilla real">
+      <created>1505419375784</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1505419375784</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -948,8 +962,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mysite/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="120" column="15" lean-forward="false" selection-start-line="120" selection-start-column="15" selection-end-line="120" selection-end-column="15" />
+        <state relative-caret-position="432">
+          <caret line="121" column="39" lean-forward="false" selection-start-line="121" selection-start-column="39" selection-end-line="121" selection-end-column="39" />
           <folding />
         </state>
       </provider>
