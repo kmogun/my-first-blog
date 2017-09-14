@@ -1,0 +1,179 @@
+/* SE APLICA A TODO "*" SIN MARGENES */
+* {
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/* HEADER Y LOGO */
+#header {
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: center;
+    width: 100%;
+    height: 68px;
+    position: fixed;
+    z-index: 500;
+    background-image: url('imagenes/header.jpg');
+    box-shadow: 2px 2px 3px black;
+}
+
+/* CAPA PRINCIPAL DE LA PAGINA DONDE IRAN ARTICULOS
+NOTICIAS ETC... */
+.contenedorPrincipal {
+    width: 60%;
+    height: 90%;
+    padding: 10px;
+    margin-bottom: 140px;
+    text-align: justify;
+    background-color: #afd752;
+    box-shadow: 8px 8px gray;
+    border-radius: 13px;
+    left: 20%;
+    top: 100px;
+    position: relative;
+}
+/* TITULO DE CONTENEDOR */
+.contenedorPrincipal h1 {
+    color: #3399ff;
+    text-align: center;
+    border-style: dashed;
+    border-width: 3px;
+    border-color: #ff6600;
+    border-radius: 5px;
+    
+}
+
+/* FIN CAPA PRINCIPAL */
+
+/* MENU ASIDE IZQUIERDO */
+
+.leftAside {
+    font-family: 'Gloria Hallelujah', cursive;
+    line-height: 18px;
+    position: absolute;
+    top: 68px;
+}
+
+a {
+    text-decoration: none;
+    color:#fff;
+}
+
+.btn-menu {
+    padding: 20px;
+    display: none;
+    background: #0d2c44;
+    color: #fff;    
+}
+
+.btn-menu .icono {
+    float: right;
+}
+
+.contenedor-menu {
+    width: 20%;
+    min-width: 200px;
+    margin: 10px;
+    display: inline-block;
+    font-family: 'Gloria Hallelujah', cursive;
+    line-height: 18px;
+    
+}
+
+.contenedor-menu .menu {
+    width: 100%;
+}
+
+.contenedor-menu ul li {
+    list-style: none;
+}
+
+.contenedor-menu .menu li a {
+    color: #000;
+    display: block;
+    padding: 13px 20px;
+    background: #e9e9e9;
+}
+
+.contenedor-menu .menu li a:hover {
+    background: #1a95d5;
+    color: #fff;
+}
+
+.contenedor-menu .menu .icono {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.contenedor-menu .menu .icono.izquierda {
+    float: left;
+    margin-right: 10px;
+}
+
+.contenedor-menu .menu .icono.derecha {
+    float: right;
+    margin-left: 10px;
+}
+
+.contenedor-menu .menu ul {
+   display: none;
+}
+
+.contenedor-menu .menu li ul li a {
+    background: #424242;
+    color: #e9e9e9;
+}
+
+.contenedor-menu .menu .activado > a {
+    background: #1a95b5;
+    color: #fff;
+}
+
+@media screen and (max-width: 450px) {
+    body {
+        padding-top: 80px;
+    }
+    
+    .contenedor-menu {
+        margin: 0;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+    }
+    
+    .btn-menu {
+        display: block;
+    }
+    
+    .contenedor-menu .menu {
+        display: none;
+    }
+}
+/* FIN MENU ASIDE IZQUIERDO */
+
+/* FOOTER */
+
+footer div {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    position: relative;
+    margin-bottom: 0;
+    bottom: 0px;
+    left: 0px;
+    background: #000;
+    color: white;
+    display: inline-block;
+}
+
+#Footer {
+    background-position: center top;
+}
+
+/* FIN FOOTER */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}

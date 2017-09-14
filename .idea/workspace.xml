@@ -2,6 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9adc56e-f469-43a2-bcd7-a68a6c00f652" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/font-awesome-4.7.0/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/imagenes/amex.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/imagenes/credit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/imagenes/dankort.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/imagenes/diners.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/imagenes/discover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/imagenes/footertarjetas.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/imagenes/forbru.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/imagenes/google.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/imagenes/header.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/imagenes/jcb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/imagenes/laser.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/imagenes/maestro.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/imagenes/mastercard.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/imagenes/money.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/imagenes/paypa.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/imagenes/shopify.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/imagenes/solo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/imagenes/tarjetasCompleta.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/imagenes/visa.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/estilo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/font-awesome-4.7.0/HELP-US-OUT.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/font-awesome-4.7.0/css/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/font-awesome-4.7.0/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/font-awesome-4.7.0/less/animated.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/font-awesome-4.7.0/less/bordered-pulled.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/font-awesome-4.7.0/less/core.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/font-awesome-4.7.0/less/fixed-width.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/font-awesome-4.7.0/less/font-awesome.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/font-awesome-4.7.0/less/icons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/font-awesome-4.7.0/less/larger.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/font-awesome-4.7.0/less/list.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/font-awesome-4.7.0/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/font-awesome-4.7.0/less/path.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/font-awesome-4.7.0/less/rotated-flipped.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/font-awesome-4.7.0/less/screen-reader.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/font-awesome-4.7.0/less/stacked.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/font-awesome-4.7.0/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/font-awesome-4.7.0/scss/_animated.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/font-awesome-4.7.0/scss/_bordered-pulled.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/font-awesome-4.7.0/scss/_core.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/font-awesome-4.7.0/scss/_fixed-width.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/font-awesome-4.7.0/scss/_icons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/font-awesome-4.7.0/scss/_larger.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/font-awesome-4.7.0/scss/_list.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/font-awesome-4.7.0/scss/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/font-awesome-4.7.0/scss/_path.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/font-awesome-4.7.0/scss/_rotated-flipped.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/font-awesome-4.7.0/scss/_screen-reader.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/font-awesome-4.7.0/scss/_stacked.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/font-awesome-4.7.0/scss/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/font-awesome-4.7.0/scss/font-awesome.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -177,6 +235,12 @@
               <item name="my-first-blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-first-blog" type="462c0819:PsiDirectoryNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-first-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-first-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-first-blog" type="b2602c69:ProjectViewProjectNode" />
@@ -455,7 +519,14 @@
       <option name="project" value="LOCAL" />
       <updated>1505417320455</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="añadimos static y primera plantilla real">
+      <created>1505417555833</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1505417555833</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
