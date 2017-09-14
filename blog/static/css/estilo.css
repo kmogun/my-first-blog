@@ -14,7 +14,7 @@
     height: 68px;
     position: fixed;
     z-index: 500;
-    background-image: url('imagenes/header.jpg');
+    background-image: url('/imagenes/header.jpg');
     box-shadow: 2px 2px 3px black;
 }
 
