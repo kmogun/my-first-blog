@@ -25,7 +25,7 @@ SECRET_KEY = 'j=k^=icv_$c+90zr7qhzw)z54rlulnm$(n%33i7do+y(a1-#yj'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['kmogu.pythonanywhere.com',]
+ALLOWED_HOSTS = ['kmogu.pythonanywhere.com', '127.0.0.1',]
 
 
 # Application definition
