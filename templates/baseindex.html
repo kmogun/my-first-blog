@@ -1,0 +1,292 @@
+{% loadstaticfiles %}
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Tienda de ropa</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="{% static 'css/estilo.css' %}">
+        <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+    </head>
+    <body>
+        <header class="logo" id="header">
+            <h1><a href="">Tienda de ropa</a></h1>
+        </header>
+
+        <aside class="leftAside">
+          <div class="contenedor-menu">
+           <a href="#" class="btn-menu">Menu<i class="icono fa fa-bars" aria-hidden="true"></i></a>
+           <ul class="menu">
+               <li><a href="#"><i class="icono izquierda fa fa-home" aria-hidden="true"></i>Inicio</a></li>
+               <li class="activado"><a href="#"><i class="icono izquierda fa fa-shopping-basket" aria-hidden="true"></i>Productos<i class="icono derecha fa fa-chevron-down" aria-hidden="true"></i></a>
+                   <ul>
+                       <li><a href="#">Camisetas Hombre</a></li>
+                       <li><a href="#">Camisetas Mujer</a></li>
+                       <li><a href="#">Sudaderas</a></li>
+                       <li><a href="#">Accesorios</a></li>
+
+                   </ul>
+               </li>
+               <li class="activado"><a href="#"><i class="icono izquierda fa fa-share-alt" aria-hidden="true"></i>Redes Sociales<i class="icono derecha fa fa-chevron-down" aria-hidden="true"></i></a>
+                 <ul>
+                     <li><a href="#">Item 1</a></li>
+                     <li><a href="#">Item 2</a></li>
+                     <li><a href="#">Item 3</a></li>
+                     <li><a href="#">Item 4</a></li>
+
+                 </ul>
+               </li>
+               <li><a href="#"><i class="icono izquierda fa fa-envelope" aria-hidden="true"></i>Contactanos</a></li>
+           </ul>
+
+            </div>
+        </aside>
+
+        <section class="Main">
+            <div class="contenedorPrincipal">
+                <div id="articulo">
+                    <article>
+                        <h1>Articulo de prueba</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                        natoque penatibus et magnis dis parturient montes, nascetur
+                        ridiculus mus. Donec quam felis, ultricies nec,
+                        pellentesque eu,
+                        pretium quis, sem. Nulla consequat massa quis enim. Donec
+                        pede justo,
+                        fringilla vel, aliquet nec, vulputate eget, arcu.
+                        In enim justo,
+                        rhoncus ut, imperdiet a, venenatis vitae, justo.
+                        Nullam dictum felis eu pede mollis pretium. Integer
+                        tincidunt. Cras dapibus. Vivamus elementum semper nisi.
+                        Aenean vulputate eleifend tellus. Aenean leo ligula,
+                        porttitor eu, consequat vitae, eleifend ac, enim. Aliquam
+                        lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+                        Phasellus viverra nulla ut metus varius laoreet. Quisque
+                        rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.
+                        Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam
+                        rhoncus. Maecenas tempus, tellus eget condimentum rhoncus,
+                        sem quam semper libero, sit amet adipiscing sem neque sed ipsum.
+                        Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id,
+                        lorem. Maecenas nec odio et ante tincidunt tempus.
+                        Donec vitae sapien ut libero venenatis faucibus.
+                        Nullam quis ante. Etiam sit amet orci eget eros faucibus
+                        tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.
+                        Donec sodales sagittis magna. Sed consequat, leo eget
+                        bibendum sodales, augue velit cursus nunc, quis gravida
+                        magna mi a libero. Fusce vulputate eleifend sapien.
+                        Vestibulum purus quam, scelerisque ut, mollis sed, nonummy
+                        id, metus. Nullam accumsan lorem in dui.
+                        Cras ultricies mi eu turpis hendrerit fringilla.
+                        Vestibulum ante ipsum primis in faucibus orci luctus
+                        et ultrices posuere cubilia Curae; In ac dui quis mi
+                        consectetuer lacinia. Nam pretium turpis et arcu. Duis
+                        arcu tortor, suscipit eget, imperdiet nec, imperdiet
+                        iaculis, ipsum. Sed aliquam ultrices mauris. Integer
+                        ante arcu, accumsan a, consectetuer eget, posuere ut,
+                        mauris. Praesent adipiscing. Phasellus ullamcorper
+                        ipsum rutrum nunc. Nunc nonummy metus. Vestibulum
+                        volutpat pretium libero. Cras id dui. Aenean ut eros
+                        nisl sagittis vestibulum. Nullam nulla eros, ultricies
+                        sit amet, nonummy id, imperdiet feugiat, pede. Sed
+                        lectus. Donec mollis hendrerit risus. Phasellus nec
+                        sem in justo pellentesque facilisis. Etiam imperdiet
+                        imperdiet orci. Nunc nec neque. Phasellus leo dolor,
+                        tempus non, auctor et, hendrerit quis, nisi. Curabitur
+                        ligula sapien, tincidunt non, euismod vitae, posuere
+                        imperdiet, leo. Maecenas malesuada. Praesent congue erat
+                        at massa. Sed cursus turpis vitae tortor. Donec posuere
+                        vulputate arcu. Phasellus accumsan cursus velit. Vestib
+                        ulum ante ipsum primis in faucibus orci luctus et ultri
+                        ces posuere cubilia Curae; Sed aliquam, nisi quis portt
+                        itor congue, elit erat euismod orci, ac placerat dolor
+                        lectus quis orci. Phasellus consectetuer vestibulum elit.
+                        Aenean tellus metus, bibendum sed, posuere ac, mattis non,
+                        nunc. Vestibulum fringilla pede sit amet augue. In turpis.
+                        Pellentesque posuere. Praesent turpis. Aenean posuere
+                        , tortor sed cursus feugiat, nunc augue blandit nunc,
+                        eu sollicitudin urna dolor sagittis lacus. Donec elit
+                        libero, sodales nec, volutpat a, suscipit non, turpis.
+                        Nullam sagittis. Suspendisse pulvinar, augue ac venenati
+                        s condimentum, sem libero volutpat nibh, nec pellentesq
+                        ue velit pede quis nunc. Vestibulum ante ipsum primis i
+                        n faucibus orci luctus et ultrices posuere cubilia Cura
+                        ; Fusce id purus. Ut varius tincidunt libero. Phasellus
+                        dolor. Maecenas vestibulum mollis diam. Pellentesque ut
+                        neque. Pellentesque habitant morbi tristique senectus et
+                        netus et malesuada fames ac turpis egestas. In dui magna
+                        , posuere eget, vestibulum et, tempor auctor, justo. In
+                        ac felis quis tortor malesuada pretium. Pellentesque au
+                        ctor neque nec urna. Proin sapien ipsum, porta a, auctor </p>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                        natoque penatibus et magnis dis parturient montes, nascetur
+                        ridiculus mus. Donec quam felis, ultricies nec,
+                        pellentesque eu,
+                        pretium quis, sem. Nulla consequat massa quis enim. Donec
+                        pede justo,
+                        fringilla vel, aliquet nec, vulputate eget, arcu.
+                        In enim justo,
+                        rhoncus ut, imperdiet a, venenatis vitae, justo.
+                        Nullam dictum felis eu pede mollis pretium. Integer
+                        tincidunt. Cras dapibus. Vivamus elementum semper nisi.
+                        Aenean vulputate eleifend tellus. Aenean leo ligula,
+                        porttitor eu, consequat vitae, eleifend ac, enim. Aliquam
+                        lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+                        Phasellus viverra nulla ut metus varius laoreet. Quisque
+                        rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.
+                        Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam
+                        rhoncus. Maecenas tempus, tellus eget condimentum rhoncus,
+                        sem quam semper libero, sit amet adipiscing sem neque sed ipsum.
+                        Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id,
+                        lorem. Maecenas nec odio et ante tincidunt tempus.
+                        Donec vitae sapien ut libero venenatis faucibus.
+                        Nullam quis ante. Etiam sit amet orci eget eros faucibus
+                        tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.
+                        Donec sodales sagittis magna. Sed consequat, leo eget
+                        bibendum sodales, augue velit cursus nunc, quis gravida
+                        magna mi a libero. Fusce vulputate eleifend sapien.
+                        Vestibulum purus quam, scelerisque ut, mollis sed, nonummy
+                        id, metus. Nullam accumsan lorem in dui.
+                        Cras ultricies mi eu turpis hendrerit fringilla.
+                        Vestibulum ante ipsum primis in faucibus orci luctus
+                        et ultrices posuere cubilia Curae; In ac dui quis mi
+                        consectetuer lacinia. Nam pretium turpis et arcu. Duis
+                        arcu tortor, suscipit eget, imperdiet nec, imperdiet
+                        iaculis, ipsum. Sed aliquam ultrices mauris. Integer
+                        ante arcu, accumsan a, consectetuer eget, posuere ut,
+                        mauris. Praesent adipiscing. Phasellus ullamcorper
+                        ipsum rutrum nunc. Nunc nonummy metus. Vestibulum
+                        volutpat pretium libero. Cras id dui. Aenean ut eros
+                        nisl sagittis vestibulum. Nullam nulla eros, ultricies
+                        sit amet, nonummy id, imperdiet feugiat, pede. Sed
+                        lectus. Donec mollis hendrerit risus. Phasellus nec
+                        sem in justo pellentesque facilisis. Etiam imperdiet
+                        imperdiet orci. Nunc nec neque. Phasellus leo dolor,
+                        tempus non, auctor et, hendrerit quis, nisi. Curabitur
+                        ligula sapien, tincidunt non, euismod vitae, posuere
+                        imperdiet, leo. Maecenas malesuada. Praesent congue erat
+                        at massa. Sed cursus turpis vitae tortor. Donec posuere
+                        vulputate arcu. Phasellus accumsan cursus velit. Vestib
+                        ulum ante ipsum primis in faucibus orci luctus et ultri
+                        ces posuere cubilia Curae; Sed aliquam, nisi quis portt
+                        itor congue, elit erat euismod orci, ac placerat dolor
+                        lectus quis orci. Phasellus consectetuer vestibulum elit.
+                        Aenean tellus metus, bibendum sed, posuere ac, mattis non,
+                        nunc. Vestibulum fringilla pede sit amet augue. In turpis.
+                        Pellentesque posuere. Praesent turpis. Aenean posuere
+                        , tortor sed cursus feugiat, nunc augue blandit nunc,
+                        eu sollicitudin urna dolor sagittis lacus. Donec elit
+                        libero, sodales nec, volutpat a, suscipit non, turpis.
+                        Nullam sagittis. Suspendisse pulvinar, augue ac venenati
+                        s condimentum, sem libero volutpat nibh, nec pellentesq
+                        ue velit pede quis nunc. Vestibulum ante ipsum primis i
+                        n faucibus orci luctus et ultrices posuere cubilia Cura
+                        ; Fusce id purus. Ut varius tincidunt libero. Phasellus
+                        dolor. Maecenas vestibulum mollis diam. Pellentesque ut
+                        neque. Pellentesque habitant morbi tristique senectus et
+                        netus et malesuada fames ac turpis egestas. In dui magna
+                        , posuere eget, vestibulum et, tempor auctor, justo. In
+                        ac felis quis tortor malesuada pretium. Pellentesque au
+                        ctor neque nec urna. Proin sapien ipsum, porta a, auctor</p>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                        natoque penatibus et magnis dis parturient montes, nascetur
+                        ridiculus mus. Donec quam felis, ultricies nec,
+                        pellentesque eu,
+                        pretium quis, sem. Nulla consequat massa quis enim. Donec
+                        pede justo,
+                        fringilla vel, aliquet nec, vulputate eget, arcu.
+                        In enim justo,
+                        rhoncus ut, imperdiet a, venenatis vitae, justo.
+                        Nullam dictum felis eu pede mollis pretium. Integer
+                        tincidunt. Cras dapibus. Vivamus elementum semper nisi.
+                        Aenean vulputate eleifend tellus. Aenean leo ligula,
+                        porttitor eu, consequat vitae, eleifend ac, enim. Aliquam
+                        lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+                        Phasellus viverra nulla ut metus varius laoreet. Quisque
+                        rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.
+                        Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam
+                        rhoncus. Maecenas tempus, tellus eget condimentum rhoncus,
+                        sem quam semper libero, sit amet adipiscing sem neque sed ipsum.
+                        Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id,
+                        lorem. Maecenas nec odio et ante tincidunt tempus.
+                        Donec vitae sapien ut libero venenatis faucibus.
+                        Nullam quis ante. Etiam sit amet orci eget eros faucibus
+                        tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.
+                        Donec sodales sagittis magna. Sed consequat, leo eget
+                        bibendum sodales, augue velit cursus nunc, quis gravida
+                        magna mi a libero. Fusce vulputate eleifend sapien.
+                        Vestibulum purus quam, scelerisque ut, mollis sed, nonummy
+                        id, metus. Nullam accumsan lorem in dui.
+                        Cras ultricies mi eu turpis hendrerit fringilla.
+                        Vestibulum ante ipsum primis in faucibus orci luctus
+                        et ultrices posuere cubilia Curae; In ac dui quis mi
+                        consectetuer lacinia. Nam pretium turpis et arcu. Duis
+                        arcu tortor, suscipit eget, imperdiet nec, imperdiet
+                        iaculis, ipsum. Sed aliquam ultrices mauris. Integer
+                        ante arcu, accumsan a, consectetuer eget, posuere ut,
+                        mauris. Praesent adipiscing. Phasellus ullamcorper
+                        ipsum rutrum nunc. Nunc nonummy metus. Vestibulum
+                        volutpat pretium libero. Cras id dui. Aenean ut eros
+                        nisl sagittis vestibulum. Nullam nulla eros, ultricies
+                        sit amet, nonummy id, imperdiet feugiat, pede. Sed
+                        lectus. Donec mollis hendrerit risus. Phasellus nec
+                        sem in justo pellentesque facilisis. Etiam imperdiet
+                        imperdiet orci. Nunc nec neque. Phasellus leo dolor,
+                        tempus non, auctor et, hendrerit quis, nisi. Curabitur
+                        ligula sapien, tincidunt non, euismod vitae, posuere
+                        imperdiet, leo. Maecenas malesuada. Praesent congue erat
+                        at massa. Sed cursus turpis vitae tortor. Donec posuere
+                        vulputate arcu. Phasellus accumsan cursus velit. Vestib
+                        ulum ante ipsum primis in faucibus orci luctus et ultri
+                        ces posuere cubilia Curae; Sed aliquam, nisi quis portt
+                        itor congue, elit erat euismod orci, ac placerat dolor
+                        lectus quis orci. Phasellus consectetuer vestibulum elit.
+                        Aenean tellus metus, bibendum sed, posuere ac, mattis non,
+                        nunc. Vestibulum fringilla pede sit amet augue. In turpis.
+                        Pellentesque posuere. Praesent turpis. Aenean posuere
+                        , tortor sed cursus feugiat, nunc augue blandit nunc,
+                        eu sollicitudin urna dolor sagittis lacus. Donec elit
+                        libero, sodales nec, volutpat a, suscipit non, turpis.
+                        Nullam sagittis. Suspendisse pulvinar, augue ac venenati
+                        s condimentum, sem libero volutpat nibh, nec pellentesq
+                        ue velit pede quis nunc. Vestibulum ante ipsum primis i
+                        n faucibus orci luctus et ultrices posuere cubilia Cura
+                        ; Fusce id purus. Ut varius tincidunt libero. Phasellus
+                        dolor. Maecenas vestibulum mollis diam. Pellentesque ut
+                        neque. Pellentesque habitant morbi tristique senectus et
+                        netus et malesuada fames ac turpis egestas. In dui magna
+                        , posuere eget, vestibulum et, tempor auctor, justo. In
+                        ac felis quis tortor malesuada pretium. Pellentesque au
+                        ctor neque nec urna. Proin sapien ipsum, porta a, auctor</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <aside class="rightAside">
+
+        </aside>
+
+        <footer id="Footer">
+            <hr>
+            <div class="footer">
+                <details>
+                    <summary>&copy; Todos los derechos reservados.</summary>
+                    <p>Contacta a con nosotros a traves de e-mail: <a href="mailto:contacta@email.com">contacta@email.com</a></p>
+                </details>
+                <hr>
+            </div>
+            <div class="fondo">
+                <figure>
+                    <figcaption>Prueba</figcaption>
+                    <img src="imagenes/footertarjetas.jpg">
+                </figure>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+       <script src="{% static 'js/main.js' %}"></script>
+    </body>
+</html>
