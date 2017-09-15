@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f9adc56e-f469-43a2-bcd7-a68a6c00f652" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/static/css/estilo.css" afterPath="$PROJECT_DIR$/blog/static/css/estilo.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/static/js/main.js" afterPath="$PROJECT_DIR$/blog/static/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/templates/blog/baseindex.html" afterPath="$PROJECT_DIR$/blog/templates/blog/baseindex.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,14 +25,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="baseindex.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="baseindex.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/templates/blog/baseindex.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5874">
-              <caret line="294" column="31" lean-forward="false" selection-start-line="294" selection-start-column="31" selection-end-line="294" selection-end-column="31" />
-              <folding>
-                <element signature="n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
+            <state relative-caret-position="770">
+              <caret line="35" column="29" lean-forward="false" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blog/static/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -141,6 +149,7 @@
         <option value="$PROJECT_DIR$/blog/templates/blog/plantilla_base.html" />
         <option value="$PROJECT_DIR$/blog/static/css/estilo.css" />
         <option value="$PROJECT_DIR$/blog/templates/blog/baseindex.html" />
+        <option value="$PROJECT_DIR$/blog/static/js/main.js" />
       </list>
     </option>
   </component>
@@ -191,6 +200,13 @@
               <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-first-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-first-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-first-blog" type="b2602c69:ProjectViewProjectNode" />
@@ -642,7 +658,14 @@
       <option name="project" value="LOCAL" />
       <updated>1505504762582</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="pruebas de carga de plantilla">
+      <created>1505506263426</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1505506263426</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -739,14 +762,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/blog/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysite/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2662">
@@ -828,9 +843,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="13" column="41" lean-forward="false" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
-          <folding>
-            <element signature="n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1176,11 +1189,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/templates/blog/baseindex.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5874">
-          <caret line="294" column="31" lean-forward="false" selection-start-line="294" selection-start-column="31" selection-end-line="294" selection-end-column="31" />
-          <folding>
-            <element signature="n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="770">
+          <caret line="35" column="29" lean-forward="false" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/static/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>

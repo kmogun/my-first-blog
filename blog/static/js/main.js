@@ -4,10 +4,12 @@ $(document).ready(function(){
         
         if ($(this).hasClass('activado')) {
             $(this).removeClass('activado');
+            $(this).addClass('desactivado');
             $(this).children('ul').slideUp();
         } else {
             $('.menu li ul').slideUp();
-            $('.menu li').removeClass('activado');
+            $('.menu li ul').hasClass('desactivado')
+            $('.menu li').removeClass('desactivado');
             $(this).addClass('activado');
             $(this).children('ul').slideDown();
         }
