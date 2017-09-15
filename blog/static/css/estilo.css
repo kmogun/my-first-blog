@@ -175,7 +175,7 @@ footer div {
 
 #Footer {
     background-position: center top;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%
 
