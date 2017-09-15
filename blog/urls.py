@@ -3,4 +3,5 @@ from . import views
 
 urlpatterns = [
     url(r'^$', views.baseindex),
+    url(r'^tienda/$', views.plantillabase),
 ]
