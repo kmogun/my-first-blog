@@ -14,10 +14,10 @@
     <body>
     {% block header %}
         <header class="logo" id="header">
-            <h1><a href="">Tienda de ropa</a></h1>
+            <h1><a href="/tienda/">Tienda de ropa</a></h1>
         </header>
     {% endblock %}
-    {% block aside %}
+    {% block asideleft %}
         <aside class="leftAside">
           <div class="contenedor-menu">
            <a href="#" class="btn-menu">Menu<i class="icono fa fa-bars" aria-hidden="true"></i></a>
@@ -46,7 +46,8 @@
 
             </div>
         </aside>
-
+    {% endblock %}
+    {% block section %}
         <section class="Main">
             <div class="contenedorPrincipal">
                 <div id="articulo">
@@ -269,9 +270,10 @@
                 </div>
             </div>
         </section>
-
+    {% endblock %}
+    {% block asideright %}
         <aside class="rightAside">
-
+    {% endblock %}
         </aside>
     {% endblock %}
     {% block footer %}
@@ -295,6 +297,7 @@
     {% block script %}
         <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
        <script src="{% static 'js/main.js' %}"></script>
-    {% endblock %}
     </body>
 </html>
+
+    {% endblock %}
