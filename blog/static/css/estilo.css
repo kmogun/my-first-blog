@@ -6,6 +6,11 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+/* HTML Relativo para empujar el footer abajo */
+html {
+    min-height: 100%;
+    position: relative;
+}
 /* HEADER Y LOGO */
 #header {
     font-family: 'Gloria Hallelujah', cursive;
@@ -170,6 +175,10 @@ footer div {
 
 #Footer {
     background-position: center top;
+    position: absolute;
+    bottom: 0;
+    width: 100%
+
 }
 
 /* FIN FOOTER */
