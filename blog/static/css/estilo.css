@@ -19,11 +19,6 @@ html {
     z-index: 10000;
     text-align: center;
 }
-@media screen and (max-width: 450px)  {
-    header {
-        position: absolute;
-    }
-}
 /* HEADER Y LOGO */
 #header {
     text-align: center;
@@ -33,6 +28,11 @@ html {
     z-index: 5000;
     background-image: url('/imagenes/header.jpg');
     box-shadow: 2px 2px 3px black;
+}
+@media screen and (max-width: 450px)  {
+    header {
+        position: absolute;
+    }
 }
 
 /* CAPA PRINCIPAL DE LA PAGINA DONDE IRAN ARTICULOS
