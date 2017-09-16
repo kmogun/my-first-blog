@@ -37,8 +37,8 @@
       <file leaf-file-name="estilo.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/static/css/estilo.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+            <state relative-caret-position="326">
+              <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -301,13 +301,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1505387350566</updated>
-    </task>
-    <task id="LOCAL-00004" summary="edito HTML">
-      <created>1505403307392</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1505403307392</updated>
     </task>
     <task id="LOCAL-00005" summary="edito HTML">
       <created>1505403382669</created>
@@ -645,7 +638,14 @@
       <option name="project" value="LOCAL" />
       <updated>1505582709737</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="@media screen and (max-width: 450px) header position absolute">
+      <created>1505582832250</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1505582832250</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -747,7 +747,8 @@
     <MESSAGE value="pruebas de carga de plantilla" />
     <MESSAGE value="#Footer position absolute" />
     <MESSAGE value="cambios en plantilla header y footer width 100%" />
-    <option name="LAST_COMMIT_MESSAGE" value="cambios en plantilla header y footer width 100%" />
+    <MESSAGE value="@media screen and (max-width: 450px) header position absolute" />
+    <option name="LAST_COMMIT_MESSAGE" value="@media screen and (max-width: 450px) header position absolute" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1184,8 +1185,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/static/css/estilo.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        <state relative-caret-position="326">
+          <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
           <folding />
         </state>
       </provider>

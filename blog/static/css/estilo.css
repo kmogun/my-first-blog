@@ -19,8 +19,10 @@ html {
     z-index: 10000;
     text-align: center;
 }
-@media screen and (max-width: 450px) header {
-    position: absolute;
+@media screen and (max-width: 450px)  {
+    header {
+        position: absolute;
+    }
 }
 /* HEADER Y LOGO */
 #header {
