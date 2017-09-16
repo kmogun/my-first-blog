@@ -19,6 +19,9 @@ html {
     z-index: 10000;
     text-align: center;
 }
+@media screen and (max-width: 450px) header {
+    position: relative;
+}
 /* HEADER Y LOGO */
 #header {
     text-align: center;
