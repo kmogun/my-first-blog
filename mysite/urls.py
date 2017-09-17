@@ -21,15 +21,15 @@ urlpatterns = [
     #url(r'', include('blog.urls')),
     url(r'^admin/', admin.site.urls),
     url(
-        regex = r'^$',
+        regex = (r'^$'),
         view  = ControlPanelView.as_view(),
         name  = "panel-dashboard"),
     url(
-        regex = r'^login/$',
+        regex = (r'^login/$'),
         view  = LoginView.as_view(),
         name  = "panel-login"),
     url(
-        regex = r'^logout/$',
+        regex = (r'^logout/$'),
         view  = LogoutView.as_view(),
         name  = "panel-logout"),
 ]
