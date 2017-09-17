@@ -19,8 +19,8 @@ from django.urls import reverse_lazy, reverse
 
 class LoginView(FormView):
     form_class = AuthenticationForm
-    template_name = "blog/login.html"
-    success_url = reverse_lazy("blog/plantilla_base.html")
+    template_name = "blog/plantilla_base.html"
+    success_url = reverse_lazy("plantilla_base.html")
 
     def dispatch(self, request, *args, **kwargs):
         if request.user.is_authenticated():
