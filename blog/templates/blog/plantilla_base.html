@@ -1,14 +1,22 @@
 {% extends 'blog/baseindex.html' %}
-
-{% block section %}
-<section class="Main">
-            <div class="contenedorPrincipal">
-                <div id="articulo">
-                    <article>
-                        <h1>Articulo de prueba</h1>
-                    <p>articulo en /tienda/</p>
-                    </article>
-                </div>
-            </div>
-        </section>
-{% endblock %}
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+    <div class="contenedor">
+        {% block content %}
+        <div class="login-panel">
+            <form method="post" role="form">{% csrf_token %}
+                {{ form.username }}
+                {{ form.password }}
+                <input type="submit" value="Login"/>
+            </form>
+        </div>
+        {% endblock %}
+    </div>
+    </body>
+</html>
