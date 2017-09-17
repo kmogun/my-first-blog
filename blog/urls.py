@@ -3,8 +3,8 @@ from . import views
 from .views import ControlPanelView, LoginView, LogoutView
 
 urlpatterns = [
-    url(r'^$', views.baseindex),
-    url(r'^tienda/$', views.plantillabase),
+    '''url(r'^$', views.baseindex),
+    url(r'^tienda/$', views.plantillabase),'''
     url(
         regex = r'^$',
         view  = ControlPanelView.as_view(),
