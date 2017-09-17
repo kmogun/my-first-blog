@@ -4,7 +4,7 @@ from .views import ControlPanelView, LoginView, LogoutView
 
 urlpatterns = [
     '''url(r'^$', views.baseindex),
-    url(r'^tienda/$', views.plantillabase),'''
+    url(r'^tienda/$', views.plantillabase),''',
     url(
         regex=(r'^$'),
         view=ControlPanelView.as_view(),
@@ -16,5 +16,5 @@ urlpatterns = [
     url(
         regex=(r'^logout/$'),
         view=LogoutView.as_view(),
-        name="panel-logout"),
+        name=("panel-logout"),
 ]
