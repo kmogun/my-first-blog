@@ -18,7 +18,7 @@ from django.urls import reverse_lazy, reverse
     return render(request, 'blog/plantilla_base.html', {})'''
 
 class LoginView(FormView):
-    form_class = AuthenticationForm
+    form_class = AuthenticationForm()
     template_name = "plantilla_base.html"
     success_url = reverse_lazy("blog/plantilla_base.html")
 
