@@ -15,8 +15,21 @@ Including another URLconf
 """
 from django.conf.urls import url, include
 from django.contrib import admin
+from blog.views import ControlPanelView, LoginView, LogoutView
 
 urlpatterns = [
-    url(r'', include('blog.urls')),
+    #url(r'', include('blog.urls')),
     url(r'^admin/', admin.site.urls),
+    url(
+        regex = r'^$',
+        view  = ControlPanelView.as_view(),
+        name  = "panel-dashboard"),
+    url(
+        regex = r'^login/$',
+        view  = LoginView.as_view(),
+        name  = "panel-login"),
+    url(
+        regex = r'^logout/$',
+        view  = LogoutView.as_view(),
+        name  = "panel-logout"),
 ]
