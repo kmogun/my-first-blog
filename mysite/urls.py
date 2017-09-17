@@ -22,17 +22,5 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
 
     url(r'^$', ControlPanelView.as_view()),
-
-    url(
-        regex = (r'^$'),
-        view  = ControlPanelView.as_view(),
-        name  = "panel-dashboard"),
-    url(
-        regex = (r'^login/$'),
-        view  = LoginView.as_view(),
-        name  = "panel-login"),
-    url(
-        regex = (r'^logout/$'),
-        view  = LogoutView.as_view(),
-        name  = "panel-logout"),
-]
+    url(r'^login/$', LoginView.as_view()),
+    url(r'^logout/$', LogoutView.as_view()),
