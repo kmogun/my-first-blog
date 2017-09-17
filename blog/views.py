@@ -19,8 +19,8 @@ def plantillabase(request):
 
 class LoginView(FormView):
     form_class = AuthenticationForm
-    template_name = "control_panel/login.html"
-    success_url = reverse_lazy("panel-dashboard")
+    template_name = "blog/login.html"
+    success_url = reverse_lazy("blog/baseindex.html")
 
     def dispatch(self, request, *args, **kwargs):
         if request.user.is_authenticated():
@@ -48,7 +48,7 @@ class LoginRequiredMixin(object):
             return super(LoginRequiredMixin, self).dispatch(request, *args, **kwargs)
 
 class ControlPanelView(LoginRequiredMixin, TemplateView):
-    template_name = 'control_panel/login.html'
+    template_name = 'blog/login.html'
 
     def get_context_data(self, **kwargs):
         context = super(ControlPanelView, self).get_context_data(**kwargs)
