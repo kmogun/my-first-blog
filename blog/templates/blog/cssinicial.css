@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.contenedor {
+    
+}
+.contenedor_header {
+    
+}
+.menu {
+    list-style: none;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+    
+}
+.link {
+    float: left;
+    width: 20%;
+    margin: 10px;
+}
+.enlace_menu {
+    display: block;
+    padding: 5px;
+    float: right;
+    margin: 10px 30px;
+    padding: 10px;
+}

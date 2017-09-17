@@ -1,0 +1,22 @@
+{% extends 'blog/baseindex.html' %}
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+    <div class="contenedor">
+        {% block content %}
+        <div class="login-panel">
+            <form method="post" role="form">{% csrf_token %}
+                {{ form.username }}
+                {{ form.password }}
+                <input type="submit" value="Login"/>
+            </form>
+        </div>
+        {% endblock %}
+    </div>
+    </body>
+</html>
