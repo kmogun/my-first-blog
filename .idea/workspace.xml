@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9adc56e-f469-43a2-bcd7-a68a6c00f652" name="Default" comment="añadido login">
+    <list default="true" id="f9adc56e-f469-43a2-bcd7-a68a6c00f652" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/templates/blog/baseindex.html" afterPath="$PROJECT_DIR$/blog/templates/blog/baseindex.html" />
     </list>
@@ -27,8 +27,8 @@
       <file leaf-file-name="baseindex.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/templates/blog/baseindex.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="828">
-              <caret line="67" column="22" lean-forward="false" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+            <state relative-caret-position="652">
+              <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
               <folding>
                 <element signature="n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#aside#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -297,13 +297,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1505387350566</updated>
-    </task>
-    <task id="LOCAL-00046" summary="pruebas de carga de plantilla">
-      <created>1505504620421</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1505504620421</updated>
     </task>
     <task id="LOCAL-00047" summary="pruebas de carga de plantilla">
       <created>1505504762582</created>
@@ -641,7 +634,14 @@
       <option name="project" value="LOCAL" />
       <updated>1505665528939</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="añadido login">
+      <created>1505676949009</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1505676949009</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -1190,8 +1190,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/templates/blog/baseindex.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="67" column="22" lean-forward="false" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+        <state relative-caret-position="652">
+          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
           <folding>
             <element signature="n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#aside#1;n#body#0;n#html#0;n#!!top" expanded="false" />
