@@ -7,7 +7,7 @@ from django.contrib.auth import login, logout
 from django.contrib.auth.forms import AuthenticationForm
 from django.http import HttpResponseRedirect
 
-from django.urls import reverse_lazy
+from django.urls import reverse_lazy, reverse
 
 # Create your views here.
 
@@ -36,8 +36,8 @@ class LogoutView(RedirectView):
     pattern_name = 'panel_login'
 
     def get(self, request, *args, **kwargs):
-        if not request.user.is_authenticated():
-            return HttpResponseRedirect(reverse('panel_login'))
+        logout(request)
+        return super(LogoutView, self).get(request, *args, **kwargs)
 
 class LoginRequiredMixin(object):
 
