@@ -20,6 +20,9 @@ from blog.views import ControlPanelView, LoginView, LogoutView
 urlpatterns = [
     #url(r'', include('blog.urls')),
     url(r'^admin/', admin.site.urls),
+
+    url(r'^$', ControlPanelView.as_view()),
+
     url(
         regex = (r'^$'),
         view  = ControlPanelView.as_view(),
