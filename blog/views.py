@@ -23,7 +23,7 @@ class LoginView(FormView):
     success_url = reverse_lazy("panel-dashboard")
 
     def dispatch(self, request, *args, **kwargs):
-        if request.user.is_authenticated()
+        if request.user.is_authenticated():
             return HttpResponseRedirect(self.get_success_url())
         else:
             return super(LoginView, self).dispatch(request, *args, **kwargs)
