@@ -11,11 +11,11 @@ from django.urls import reverse_lazy, reverse
 
 # Create your views here.
 
-'''def baseindex(request):
-    return render(request, 'blog/baseindex.html', {})'''
+#'''def baseindex(request):
+#    return render(request, 'blog/baseindex.html', {})'''
 
-'''def plantillabase(request):
-    return render(request, 'blog/plantilla_base.html', {})'''
+#'''def plantillabase(request):
+#    return render(request, 'blog/plantilla_base.html', {})'''
 
 class LoginView(FormView):
     form_class = AuthenticationForm()
