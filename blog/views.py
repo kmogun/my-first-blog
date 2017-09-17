@@ -19,7 +19,7 @@ from django.urls import reverse_lazy, reverse
 
 class LoginView(FormView):
     form_class = AuthenticationForm
-    template_name = "blog/plantilla_base.html"
+    template_name = "plantilla_base.html"
     success_url = reverse_lazy("blog/plantilla_base.html")
 
     def dispatch(self, request, *args, **kwargs):
@@ -48,7 +48,7 @@ class LoginRequiredMixin(object):
             return super(LoginRequiredMixin, self).dispatch(request, *args, **kwargs)
 
 class ControlPanelView(LoginRequiredMixin, TemplateView):
-    template_name = 'blog/plantilla_base.html'
+    template_name = 'plantilla_base.html'
 
     def get_context_data(self, **kwargs):
         context = super(ControlPanelView, self).get_context_data(**kwargs)
