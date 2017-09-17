@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f9adc56e-f469-43a2-bcd7-a68a6c00f652" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/urls.py" afterPath="$PROJECT_DIR$/blog/urls.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -313,13 +312,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1505387350566</updated>
-    </task>
-    <task id="LOCAL-00020" summary="añadimos static y primera plantilla real">
-      <created>1505416480931</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1505416480931</updated>
     </task>
     <task id="LOCAL-00021" summary="añadimos static y primera plantilla real">
       <created>1505416892728</created>
@@ -657,7 +649,14 @@
       <option name="project" value="LOCAL" />
       <updated>1505657335978</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="añadido login">
+      <created>1505657507660</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1505657507660</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
