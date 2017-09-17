@@ -5,16 +5,6 @@ from .views import ControlPanelView, LoginView, LogoutView
 urlpatterns = [
     '''url(r'^$', views.baseindex),
     url(r'^tienda/$', views.plantillabase),''',
-    url(
-        regex=(r'^$'),
-        view=ControlPanelView.as_view(),
-        name="panel-dashboard"),
-    url(
-        regex=(r'^login/$'),
-        view=LoginView.as_view(),
-        name="panel-login"),
-    url(
-        regex=(r'^logout/$'),
-        view=LogoutView.as_view(),
-        name=("panel-logout"),
-]
+    url(r'^$', ControlPanelView.as_view()),
+    url(r'^login/$', LoginView.as_view()),
+    url(r'^logout/$', LogoutView.as_view()),
