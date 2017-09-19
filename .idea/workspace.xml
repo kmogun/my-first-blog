@@ -18,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/mysite/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="652">
-              <caret line="121" column="44" lean-forward="false" selection-start-line="121" selection-start-column="44" selection-end-line="121" selection-end-column="44" />
+              <caret line="121" column="57" lean-forward="false" selection-start-line="121" selection-start-column="57" selection-end-line="121" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -376,13 +376,6 @@
       <option name="presentableId" value="Default" />
       <updated>1505387350566</updated>
     </task>
-    <task id="LOCAL-00057" summary="#Footer position absolute">
-      <created>1505572286652</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1505572286652</updated>
-    </task>
     <task id="LOCAL-00058" summary="cambios en plantilla header y footer width 100%">
       <created>1505582331450</created>
       <option name="number" value="00058" />
@@ -719,7 +712,14 @@
       <option name="project" value="LOCAL" />
       <updated>1505862569478</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="añadido login">
+      <created>1505862678345</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1505862678345</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -1296,7 +1296,7 @@
     <entry file="file://$PROJECT_DIR$/mysite/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="652">
-          <caret line="121" column="44" lean-forward="false" selection-start-line="121" selection-start-column="44" selection-end-line="121" selection-end-column="44" />
+          <caret line="121" column="57" lean-forward="false" selection-start-line="121" selection-start-column="57" selection-end-line="121" selection-end-column="57" />
           <folding />
         </state>
       </provider>
