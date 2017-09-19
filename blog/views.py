@@ -32,27 +32,3 @@ class LoginView(FormView):
         login(self.request, form.get_user())
         return super(LoginView, self).form_valid(form)
 
-class LogoutView(RedirectView):
-    pattern_name = 'panel_login'
-
-    def get(self, request, *args, **kwargs):
-        logout(request)
-        return super(LogoutView, self).get(request, *args, **kwargs)
-
-class LoginRequiredMixin(object):
-
-    def dispatch(self, request, *args, **kwargs):
-        if not request.user.is_authenticated():
-            return HttpResponseRedirect(reverse('panel-login'))
-        else:
-            return super(LoginRequiredMixin, self).dispatch(request, *args, **kwargs)
-
-class ControlPanelView(LoginRequiredMixin, TemplateView):
-    template_name = 'plantilla_base.html'
-
-    def get_context_data(self, **kwargs):
-        context = super(ControlPanelView, self).get_context_data(**kwargs)
-        return context
-
-
-
