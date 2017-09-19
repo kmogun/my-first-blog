@@ -15,13 +15,8 @@ Including another URLconf
 """
 from django.conf.urls import url, include
 from django.contrib import admin
-from blog.views import ControlPanelView, LoginView, LogoutView
 
 urlpatterns = [
     url(r'', include('blog.urls')),
     url(r'^admin/', admin.site.urls),
-
-    url(r'^$', ControlPanelView.as_view()),
-    url(r'^login/$', LoginView.as_view()),
-    url(r'^logout/$', LogoutView.as_view()),
 ]
