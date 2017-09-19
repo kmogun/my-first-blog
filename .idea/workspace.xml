@@ -1,73 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9adc56e-f469-43a2-bcd7-a68a6c00f652" name="Default" comment="añadido login">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/Actions-format-text-bold-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/Actions-format-text-italic-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/Actions-format-text-strikethrough-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/Actions-format-text-underline-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/colors.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/crew_back.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/crew_front.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/delete.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/drag.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/font_bold.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/font_italic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/font_strikethrough.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/font_underline.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/glyphicons-halflings-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/glyphicons-halflings.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/invisibleman.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/mens_hoodie_back.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/mens_hoodie_front.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/mens_longsleeve_back.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/mens_longsleeve_front.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/mens_tank_back.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/mens_tank_front.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/phones/GalaxyS3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/phones/GalaxyS3A.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/phones/GalaxyS3Base.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/phones/GalaxyS3Mask.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/phones/designs/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/phones/designs/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/phones/designs/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/phones/designs/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/phones/designs/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/phones/designs/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/phones/designs/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/phones/designs/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/phones/iPhone3A.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/phones/iPhone3GHCOverlay.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/phones/iPhone4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/phones/iPhone4A.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/phones/iPhone4HCOverlay.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/phones/iPhone5A.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/phones/iphone4Base.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/phones/iphone4Mask.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/phones/iphone5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/phones/iphone5Base.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/phones/iphone5Mask.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/rotate.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/sample.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/scale.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/trigger.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/womens_crew_back.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/img/womens_crew_front.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/bootstrap-responsive.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/bootstrap-responsive.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/jquery.miniColors.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/jquery.simplecolorpicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/js/caseEditor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/js/excanvas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/js/fabric.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/js/jquery.miniColors.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/js/tshirtEditor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/templates/blog/case.html" />
+    <list default="true" id="f9adc56e-f469-43a2-bcd7-a68a6c00f652" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/templates/blog/plantilla_base.html" afterPath="$PROJECT_DIR$/blog/templates/blog/plantilla_base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite/settings.py" afterPath="$PROJECT_DIR$/mysite/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -78,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mysite/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1906">
-              <caret line="121" column="38" lean-forward="false" selection-start-line="121" selection-start-column="38" selection-end-line="121" selection-end-column="38" />
+            <state relative-caret-position="652">
+              <caret line="121" column="44" lean-forward="false" selection-start-line="121" selection-start-column="44" selection-end-line="121" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -156,7 +92,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="case.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="case.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/templates/blog/case.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -248,9 +184,9 @@
         <option value="$PROJECT_DIR$/blog/templates/blog/baseindex.html" />
         <option value="$PROJECT_DIR$/mysite/urls.py" />
         <option value="$PROJECT_DIR$/blog/urls.py" />
-        <option value="$PROJECT_DIR$/mysite/settings.py" />
         <option value="$PROJECT_DIR$/blog/views.py" />
         <option value="$PROJECT_DIR$/blog/templates/blog/plantilla_base.html" />
+        <option value="$PROJECT_DIR$/mysite/settings.py" />
       </list>
     </option>
   </component>
@@ -439,13 +375,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1505387350566</updated>
-    </task>
-    <task id="LOCAL-00056" summary="pruebas de carga de plantilla">
-      <created>1505569858442</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1505569858442</updated>
     </task>
     <task id="LOCAL-00057" summary="#Footer position absolute">
       <created>1505572286652</created>
@@ -783,7 +712,14 @@
       <option name="project" value="LOCAL" />
       <updated>1505861864298</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="añadido login">
+      <created>1505862569478</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1505862569478</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -1297,14 +1233,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1906">
-          <caret line="121" column="38" lean-forward="false" selection-start-line="121" selection-start-column="38" selection-end-line="121" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/templates/blog/plantilla_base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -1361,6 +1289,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="652">
+          <caret line="121" column="44" lean-forward="false" selection-start-line="121" selection-start-column="44" selection-end-line="121" selection-end-column="44" />
           <folding />
         </state>
       </provider>
