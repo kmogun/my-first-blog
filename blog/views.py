@@ -11,4 +11,7 @@ def baseindex(request):
 def plantillabase(request):
     return render(request, 'blog/plantilla_base.html', {})
 
+def case_test(request):
+    return render(request, 'blog/case.html', {})
+
 
