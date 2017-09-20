@@ -84,7 +84,7 @@ var line4;
 	  		debugger;
 	  		if($(this).val() == "1"){
 	  			$("#phoneDiv").css('height','590');
-	  			$("#phone")[0].src = "img/phones/iphone5A.png";
+	  			$("#phone")[0].src = "{% static 'img/phones/iphone5A.png' %}";
 	  			//$("#borderMask")[0].src = "img/phones/iphone5Mask.png";
 				line1 = new fabric.Line([0,0,225,0], {"stroke":"#000000", "strokeWidth":1,hasBorders:false,hasControls:false,hasRotatingPoint:false,selectable:false});
 				line2 = new fabric.Line([224,0,225,450], {"stroke":"#000000", "strokeWidth":1,hasBorders:false,hasControls:false,hasRotatingPoint:false,selectable:false});
@@ -93,7 +93,7 @@ var line4;
 	  		}
 	  		else if ($(this).val() == "2"){
 	  			$("#phoneDiv").css('height','540');
-	  			$("#phone")[0].src = "img/phones/iPhone4A.png";
+	  			$("#phone")[0].src = "{% static 'img/phones/iPhone4A.png' %}";
 	  			//$("#borderMask")[0].src = "img/phones/iphone4Mask.png";
 	  			line1 = new fabric.Line([0,20,220,20], {"stroke":"#000000", "strokeWidth":1,hasBorders:false,hasControls:false,hasRotatingPoint:false,selectable:false});
 				line2 = new fabric.Line([220,20,220,420], {"stroke":"#000000", "strokeWidth":1,hasBorders:false,hasControls:false,hasRotatingPoint:false,selectable:false});
@@ -102,7 +102,7 @@ var line4;
 	  		}
 	  		else if ($(this).val() == "3"){	  		
 	  			$("#phoneDiv").css('height','535');
-	  			$("#phone")[0].src = "img/phones/GalaxyS3A.png";
+	  			$("#phone")[0].src = "{% static 'img/phones/GalaxyS3A.png' %}";
 	  			//$("#borderMask")[0].src = "img/phones/GalaxyS3Mask.png";	
 	  			line1 = new fabric.Line([0,30,225,30], {"stroke":"#000000", "strokeWidth":1,hasBorders:false,hasControls:false,hasRotatingPoint:false,selectable:false});
 				line2 = new fabric.Line([224,30,225,400], {"stroke":"#000000", "strokeWidth":1,hasBorders:false,hasControls:false,hasRotatingPoint:false,selectable:false});
