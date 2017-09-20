@@ -102,7 +102,7 @@ var line4;
 	  		}
 	  		else if ($(this).val() == "3"){	  		
 	  			$("#phoneDiv").css('height','535');
-	  			$("#phone")[0].src = "{% static 'img/phones/GalaxyS3A.png' %}";
+	  			$("#phone")[0].src = "{% static 'img/phones/GalaxyS3A.png' %}"; //NO FUNCIONA HAY QUE PASAR LINKS A MANO
 	  			//$("#borderMask")[0].src = "img/phones/GalaxyS3Mask.png";	
 	  			line1 = new fabric.Line([0,30,225,30], {"stroke":"#000000", "strokeWidth":1,hasBorders:false,hasControls:false,hasRotatingPoint:false,selectable:false});
 				line2 = new fabric.Line([224,30,225,400], {"stroke":"#000000", "strokeWidth":1,hasBorders:false,hasControls:false,hasRotatingPoint:false,selectable:false});
