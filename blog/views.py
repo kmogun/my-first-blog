@@ -26,3 +26,8 @@ def add_persona(request):
             new_persona = form.save()
 
             return HttpResponseRedirect(reverse('upersona:plist'))
+
+    else:
+        form = PersonaForm()  #  Unbound form
+
+    return render(request, 'blog/persona_form.html')
