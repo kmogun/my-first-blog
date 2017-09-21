@@ -9,7 +9,7 @@ from .forms import RegistroUsuarios
 def baseindex(request):
     form = RegistroUsuarios()
     print(form)
-    return render(request, 'blog/baseindex.html', {'el_form': form,})
+    return render(request, 'blog/prueba.html', {'el_form': form})
 
 def plantillabase(request):
     return render(request, 'blog/plantilla_base.html', {})
