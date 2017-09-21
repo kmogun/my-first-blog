@@ -1,8 +1,18 @@
 from django.db import models
 from django.utils import timezone
+from django.forms import ModelForm
 from django.contrib.auth.models import BaseUserManager, AbstractBaseUser
 
 # Create your models here.
+
+##  Modelo de prueba para forms
+class PersonaForm(ModelForm):
+
+    class meta:
+        model = Post
+
+##  fin modelo de prueba para forms
+
 
 class Post(models.Model):
     author = models.ForeignKey('auth.User')

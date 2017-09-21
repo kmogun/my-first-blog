@@ -1,6 +1,8 @@
 # views.py
-from django.shortcuts import render
+from django.shortcuts import render, reverse
+from django.http import HttpResponseRedirect
 from .forms import RegistroUsuarios
+from .models import PersonaForm
 from django.views.generic import FormView, TemplateView, RedirectView
 
 
@@ -17,4 +19,10 @@ def plantillabase(request):
 def case_test(request):
     return render(request, 'blog/case.html', {})
 
+def add_persona(request):
+    if request.method == 'POST':
+        form = PersonaForm(request.POST)
+        if form.is_valid():
+            new_persona = form.save()
 
+            return HttpResponseRedirect(reverse('upersona:plist'))
