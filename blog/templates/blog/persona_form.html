@@ -1,0 +1,10 @@
+{% raw %}
+{% extends "baseindex.html" %}
+{% block section %}
+  <form action="{% url 'upersonas:padd' %}" method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Añadir persona" />
+</form>
+{% endblock %}
+{% endraw %}
