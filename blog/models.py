@@ -5,15 +5,6 @@ from django.contrib.auth.models import BaseUserManager, AbstractBaseUser
 
 # Create your models here.
 
-##  Modelo de prueba para forms
-class PersonaForm(ModelForm):
-
-    class meta:
-        model = Post
-
-##  fin modelo de prueba para forms
-
-
 class Post(models.Model):
     author = models.ForeignKey('auth.User')
     title = models.CharField(max_length=200)
