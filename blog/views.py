@@ -19,15 +19,3 @@ def plantillabase(request):
 def case_test(request):
     return render(request, 'blog/case.html', {})
 
-def add_persona(request):
-    if request.method == 'POST':
-        form = PersonaForm(request.POST)
-        if form.is_valid():
-            new_persona = form.save()
-
-            return HttpResponseRedirect(reverse('upersona:plist'))
-
-    else:
-        form = PersonaForm()  #  Unbound form
-
-    return render(request, 'blog/persona_form.html')
