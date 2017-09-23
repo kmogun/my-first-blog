@@ -1,17 +1,11 @@
 # views.py
-from django.shortcuts import render, reverse
-from django.http import HttpResponseRedirect
-from .forms import RegistroUsuarios
-from .models import PersonaForm
-from django.views.generic import FormView, TemplateView, RedirectView
+from django.shortcuts import render
 
 
 # Create your views here.
 
 def baseindex(request):
-    form = FormView(RegistroUsuarios)
-    print(form)
-    return render(request, 'blog/prueba.html', {'el_form': form})
+    return render(request, 'blog/prueba.html', {})
 
 def plantillabase(request):
     return render(request, 'blog/plantilla_base.html', {})
