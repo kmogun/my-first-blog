@@ -233,12 +233,6 @@
               <item name="my-first-blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-first-blog" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="apk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-first-blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-first-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="imagenes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -356,13 +350,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1505387350566</updated>
-    </task>
-    <task id="LOCAL-00089" summary="añadido login">
-      <created>1505664724760</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1505664724760</updated>
     </task>
     <task id="LOCAL-00090" summary="añadido login">
       <created>1505664758958</created>
@@ -700,7 +687,14 @@
       <option name="project" value="LOCAL" />
       <updated>1507299552134</updated>
     </task>
-    <option name="localTasksCounter" value="138" />
+    <task id="LOCAL-00138" summary="prueba de apk">
+      <created>1507299611924</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1507299611924</updated>
+    </task>
+    <option name="localTasksCounter" value="139" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -804,7 +798,8 @@
     <MESSAGE value="@media screen and (max-width: 450px) header position absolute" />
     <MESSAGE value="añadido login" />
     <MESSAGE value="aplicacion presentacion en la web" />
-    <option name="LAST_COMMIT_MESSAGE" value="aplicacion presentacion en la web" />
+    <MESSAGE value="prueba de apk" />
+    <option name="LAST_COMMIT_MESSAGE" value="prueba de apk" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
