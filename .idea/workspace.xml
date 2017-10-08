@@ -28,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/blog/templates/registration/registration_base.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+              <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -280,13 +280,6 @@
       <option name="presentableId" value="LOCAL-00097" />
       <option name="project" value="LOCAL" />
       <updated>1505864080923</updated>
-    </task>
-    <task id="LOCAL-00104" summary="añadido login">
-      <created>1505861864298</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1505861864298</updated>
     </task>
     <task id="LOCAL-00105" summary="añadido login">
       <created>1505862569478</created>
@@ -617,7 +610,14 @@
       <option name="project" value="LOCAL" />
       <updated>1507464733839</updated>
     </task>
-    <option name="localTasksCounter" value="152" />
+    <task id="LOCAL-00152" summary="añadiendo registro a la web">
+      <created>1507464893555</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1507464893555</updated>
+    </task>
+    <option name="localTasksCounter" value="153" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -1092,7 +1092,7 @@
     <entry file="file://$PROJECT_DIR$/blog/templates/registration/registration_base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
           <folding />
         </state>
       </provider>
