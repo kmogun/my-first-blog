@@ -32,7 +32,9 @@ ALLOWED_HOSTS = ['kmogu.pythonanywhere.com',]
 
 INSTALLED_APPS = [
     'django.contrib.admin',
+    'registration',  #Este es el registro Django-registration-redux
     'django.contrib.auth',
+    'django.contrib.sites',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
@@ -125,4 +127,7 @@ STATICFILES_DIRS = [
     '/home/kmogu/my-first-blog/blog/static/',
 ]
 
+##  Django Registration Redux
 
+ACCOUNT_ACTIVATION_DAYS = 7
+REGISTRATION_AUTO_LOGIN = True
