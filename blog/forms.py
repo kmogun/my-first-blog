@@ -1,4 +1,5 @@
 from django import forms
+from registration.forms import RegistrationForm
 
 class RegistroUsuarios(forms.Form):
     nombre = forms.CharField(max_length=150, label='Tu nombre:')
